@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Code-n-Mingle</title>
+
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="astra-theme-css-css" href="style.min.css" type="text/css" media="all">
+<style id="astra-theme-css-inline-css" type="text/css">
+html{font-size:93.75%;}a,.page-title{color:#43a89a;}a:hover,a:focus{color:#43a89a;}body,button,input,select,textarea,.ast-button,.ast-custom-button{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-weight:inherit;font-size:15px;font-size:1rem;}blockquote{color:#000000;}.site-title{font-size:35px;font-size:2.3333333333333rem;}.ast-archive-description .ast-archive-title{font-size:40px;font-size:2.6666666666667rem;}.site-header .site-description{font-size:15px;font-size:1rem;}.entry-title{font-size:30px;font-size:2rem;}.comment-reply-title{font-size:24px;font-size:1.6rem;}.ast-comment-list #cancel-comment-reply-link{font-size:15px;font-size:1rem;}h1,.entry-content h1,.entry-content h1 a{font-size:48px;font-size:3.2rem;}h2,.entry-content h2,.entry-content h2 a{font-size:42px;font-size:2.8rem;}h3,.entry-content h3,.entry-content h3 a{font-size:30px;font-size:2rem;}h4,.entry-content h4,.entry-content h4 a{font-size:20px;font-size:1.3333333333333rem;}h5,.entry-content h5,.entry-content h5 a{font-size:18px;font-size:1.2rem;}h6,.entry-content h6,.entry-content h6 a{font-size:15px;font-size:1rem;}.ast-single-post .entry-title,.page-title{font-size:30px;font-size:2rem;}#secondary,#secondary button,#secondary input,#secondary select,#secondary textarea{font-size:15px;font-size:1rem;}::selection{background-color:#eeae31;color:#000000;}body,h1,.entry-title a,.entry-content h1,.entry-content h1 a,h2,.entry-content h2,.entry-content h2 a,h3,.entry-content h3,.entry-content h3 a,h4,.entry-content h4,.entry-content h4 a,h5,.entry-content h5,.entry-content h5 a,h6,.entry-content h6,.entry-content h6 a{color:#3a3a3a;}.tagcloud a:hover,.tagcloud a:focus,.tagcloud a.current-item{color:#000000;border-color:#43a89a;background-color:#43a89a;}.main-header-menu a,.ast-header-custom-item a{color:#3a3a3a;}.main-header-menu li:hover > a,.main-header-menu li:hover > .ast-menu-toggle,.main-header-menu .ast-masthead-custom-menu-items a:hover,.main-header-menu li.focus > a,.main-header-menu li.focus > .ast-menu-toggle,.main-header-menu .current-menu-item > a,.main-header-menu .current-menu-ancestor > a,.main-header-menu .current_page_item > a,.main-header-menu .current-menu-item > .ast-menu-toggle,.main-header-menu .current-menu-ancestor > .ast-menu-toggle,.main-header-menu .current_page_item > .ast-menu-toggle{color:#43a89a;}input:focus,input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="reset"]:focus,input[type="search"]:focus,textarea:focus{border-color:#43a89a;}input[type="radio"]:checked,input[type=reset],input[type="checkbox"]:checked,input[type="checkbox"]:hover:checked,input[type="checkbox"]:focus:checked,input[type=range]::-webkit-slider-thumb{border-color:#43a89a;background-color:#43a89a;box-shadow:none;}.site-footer a:hover + .post-count,.site-footer a:focus + .post-count{background:#43a89a;border-color:#43a89a;}.footer-adv .footer-adv-overlay{border-top-style:solid;border-top-color:#7a7a7a;}.ast-comment-meta{line-height:1.666666667;font-size:12px;font-size:0.8rem;}.single .nav-links .nav-previous,.single .nav-links .nav-next,.single .ast-author-details .author-title,.ast-comment-meta{color:#43a89a;}.entry-meta,.entry-meta *{line-height:1.45;color:#43a89a;}.entry-meta a:hover,.entry-meta a:hover *,.entry-meta a:focus,.entry-meta a:focus *{color:#43a89a;}.ast-404-layout-1 .ast-404-text{font-size:200px;font-size:13.333333333333rem;}.widget-title{font-size:21px;font-size:1.4rem;color:#3a3a3a;}#cat option,.secondary .calendar_wrap thead a,.secondary .calendar_wrap thead a:visited{color:#43a89a;}.secondary .calendar_wrap #today,.ast-progress-val span{background:#43a89a;}.secondary a:hover + .post-count,.secondary a:focus + .post-count{background:#43a89a;border-color:#43a89a;}.calendar_wrap #today > a{color:#000000;}.ast-pagination a,.page-links .page-link,.single .post-navigation a{color:#43a89a;}.ast-pagination a:hover,.ast-pagination a:focus,.ast-pagination > span:hover:not(.dots),.ast-pagination > span.current,.page-links > .page-link,.page-links .page-link:hover,.post-navigation a:hover{color:#43a89a;}.ast-header-break-point .ast-mobile-menu-buttons-minimal.menu-toggle{background:transparent;color:#eeae31;}.ast-header-break-point .ast-mobile-menu-buttons-outline.menu-toggle{background:transparent;border:1px solid #eeae31;color:#eeae31;}.ast-header-break-point .ast-mobile-menu-buttons-fill.menu-toggle{background:#eeae31;}.menu-toggle,button,.ast-button,.ast-custom-button,.button,input#submit,input[type="button"],input[type="submit"],input[type="reset"]{color:#000000;border-color:#eeae31;background-color:#eeae31;border-radius:2px;padding-top:10px;padding-right:40px;padding-bottom:10px;padding-left:40px;font-family:inherit;font-weight:inherit;}button:focus,.menu-toggle:hover,button:hover,.ast-button:hover,.button:hover,input[type=reset]:hover,input[type=reset]:focus,input#submit:hover,input#submit:focus,input[type="button"]:hover,input[type="button"]:focus,input[type="submit"]:hover,input[type="submit"]:focus{color:#000000;background-color:#43a89a;border-color:#43a89a;}@media (min-width:545px){.ast-page-builder-template .comments-area,.single.ast-page-builder-template .entry-header,.single.ast-page-builder-template .post-navigation{max-width:1240px;margin-left:auto;margin-right:auto;}}@media (max-width:768px){.ast-archive-description .ast-archive-title{font-size:40px;}.entry-title{font-size:30px;}h1,.entry-content h1,.entry-content h1 a{font-size:30px;}h2,.entry-content h2,.entry-content h2 a{font-size:25px;}h3,.entry-content h3,.entry-content h3 a{font-size:20px;}.ast-single-post .entry-title,.page-title{font-size:30px;}}@media (max-width:544px){.ast-archive-description .ast-archive-title{font-size:40px;}.entry-title{font-size:30px;}h1,.entry-content h1,.entry-content h1 a{font-size:30px;}h2,.entry-content h2,.entry-content h2 a{font-size:25px;}h3,.entry-content h3,.entry-content h3 a{font-size:20px;}.ast-single-post .entry-title,.page-title{font-size:30px;}}@media (max-width:768px){html{font-size:85.5%;}}@media (max-width:544px){html{font-size:85.5%;}}@media (min-width:769px){.ast-container{max-width:1240px;}}@font-face {font-family: "Astra";src: url() format("woff"),url() format("truetype"),url() format("svg");font-weight: normal;font-style: normal;font-display: fallback;}@media (max-width:921px) {.main-header-bar .main-header-bar-navigation{display:none;}}.ast-desktop .main-header-menu.submenu-with-border .sub-menu,.ast-desktop .main-header-menu.submenu-with-border .children,.ast-desktop .main-header-menu.submenu-with-border .astra-full-megamenu-wrapper{border-color:#eaeaea;}.ast-desktop .main-header-menu.submenu-with-border .sub-menu,.ast-desktop .main-header-menu.submenu-with-border .children{border-top-width:1px;border-right-width:1px;border-left-width:1px;border-bottom-width:1px;border-style:solid;}.ast-desktop .main-header-menu.submenu-with-border .sub-menu .sub-menu,.ast-desktop .main-header-menu.submenu-with-border .children .children{top:-1px;}.ast-desktop .main-header-menu.submenu-with-border .sub-menu a,.ast-desktop .main-header-menu.submenu-with-border .children a{border-bottom-width:1px;border-style:solid;border-color:#eaeaea;}@media (min-width:769px){.main-header-menu .sub-menu li.ast-left-align-sub-menu:hover > ul,.main-header-menu .sub-menu li.ast-left-align-sub-menu.focus > ul{margin-left:-2px;}}@media (max-width:920px){.ast-404-layout-1 .ast-404-text{font-size:100px;font-size:6.6666666666667rem;}}.ast-breadcrumbs .trail-browse,.ast-breadcrumbs .trail-items,.ast-breadcrumbs .trail-items li{display:inline-block;margin:0;padding:0;border:none;background:inherit;text-indent:0;}.ast-breadcrumbs .trail-browse{font-size:inherit;font-style:inherit;font-weight:inherit;color:inherit;}.ast-breadcrumbs .trail-items{list-style:none;}.trail-items li::after{padding:0 0.3em;content:"\00bb";}.trail-items li:last-of-type::after{display:none;}.ast-header-break-point .site-header{border-bottom-width:0;}@media (min-width:769px){.main-header-bar{border-bottom-width:0;}}.ast-flex{-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;}.main-header-bar{padding:1em 0;}.ast-site-identity{padding:0;}.header-main-layout-1 .ast-flex.main-header-container, .header-main-layout-3 .ast-flex.main-header-container{-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;}.header-main-layout-1 .ast-flex.main-header-container, .header-main-layout-3 .ast-flex.main-header-container{-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;}
+</style>
+<link rel="stylesheet" id="elementor-icons-css" href="elementor-icons.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="font-awesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-animations-css" href="animations.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="frontend.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-pro-css" href="frontend.min(1).css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="global.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-55-css" href="post-55.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-23-css" href="post-23.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-16-css" href="post-16.css" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="css" type="text/css" media="all">
+
+
+
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		
+</head>
+
+<body itemtype="https://schema.org/WebPage" itemscope="itemscope" class="page-template-default page page-id-55 page-parent wp-custom-logo ast-desktop ast-page-builder-template ast-no-sidebar astra-2.3.5 ast-header-custom-item-inside ast-single-post ast-inherit-site-logo-transparent elementor-default elementor-page elementor-page-55" data-elementor-device-mode="desktop" style="">
+
+<div class="hfeed site" id="page">
+	<a class="skip-link screen-reader-text" href="">Skip to content</a>
+
+	
+			<div data-elementor-type="header" data-elementor-id="23" class="elementor elementor-23 elementor-bc-flex-widget  elementor-type-header elementor-location-header" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<div class="elementor-element elementor-element-bc4217e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="bc4217e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-89db0c1 elementor-column elementor-col-33 elementor-top-column" data-id="89db0c1" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-41ece009 elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="41ece009" data-element_type="widget" data-widget_type="theme-site-logo.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+											<a href="" data-elementor-open-lightbox="">
+							<img width="760" height="200" src="logo.png" class="attachment-full size-full" alt="" srcset="" sizes="(max-width: 760px) 100vw, 760px">								</a>
+											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-3541005 elementor-column elementor-col-33 elementor-top-column" data-id="3541005" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-51d01b0b elementor-nav-menu__align-right elementor-nav-menu--stretch elementor-nav-menu__text-align-center elementor-nav-menu--indicator-classic elementor-nav-menu--dropdown-tablet elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="51d01b0b" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade"><ul id="menu-1-51d01b0b" class="elementor-nav-menu" data-smartmenus-id="16104832314109946"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-30"><a href="index.html" class="elementor-item">For Buyers</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82"><a href="" class="elementor-item">For Sellers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-55 current_page_item menu-item-77"><a href="coders.html" class="elementor-item  elementor-item-active">For Coders</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="" class="elementor-item">How it Works</a></li>
+</ul></nav>
+					<div class="elementor-menu-toggle" style="">
+			<i class="eicon" aria-hidden="true"></i>
+		</div>
+		<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" style="top: 71px; width: 1263px; left: 0px;"><ul id="menu-2-51d01b0b" class="elementor-nav-menu" data-smartmenus-id="16104832314134497"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-30"><a href="index.html" class="elementor-item">For Buyers</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82"><a href="" class="elementor-item">For Sellers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-55 current_page_item menu-item-77"><a href="" class="elementor-item  elementor-item-active">For Coders</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="" class="elementor-item">How it Works</a></li>
+</ul></nav>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-b5196b0 elementor-column elementor-col-33 elementor-top-column" data-id="b5196b0" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-735de47a elementor-align-center elementor-mobile-align-justify elementor-widget elementor-widget-button" data-id="735de47a" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="login.html" class="elementor-button-link elementor-button elementor-size-md" role="button" id="login">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Login</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</div>
+		
+	
+	
+	<div id="content" class="site-content">
+
+		<div class="ast-container">
+
+		
+
+	<div id="primary" class="content-area primary">
+
+		
+					<main id="main" class="site-main">
+
+				
+					
+					
+
+<article class="post-55 page type-page status-publish ast-article-single" id="post-55" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
+
+	
+	<header class="entry-header ast-header-without-markup">
+
+		
+			</header><!-- .entry-header -->
+
+	<div class="entry-content clear" itemprop="text">
+
+		
+				<div data-elementor-type="post" data-elementor-id="55" class="elementor elementor-55" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-5160c76d elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="5160c76d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;}" style="width: 1263px; left: 0px;">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-4c84e654 elementor-column elementor-col-100 elementor-top-column" data-id="4c84e654" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4baf0929 elementor-widget elementor-widget-spacer" data-id="4baf0929" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5e895e6a elementor-widget elementor-widget-heading" data-id="5e895e6a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Get paid for your work.</h1>		</div>
+				</div>
+				<section class="elementor-element elementor-element-11e22a75 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="11e22a75" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-9f87cc6 elementor-column elementor-col-100 elementor-inner-column" data-id="9f87cc6" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-45050d28 elementor-widget elementor-widget-text-editor" data-id="45050d28" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><span style="color: #43a89a;">Finding paid work in college is hard.</span>&nbsp;<br>Most students work for free to get experience &amp; build a portfolio. Code-n-Mingle brings paid projects right to your inbox.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-15661cf9 elementor-align-center elementor-widget elementor-widget-button" data-id="15661cf9" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Get Started - It's Free</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<div class="elementor-element elementor-element-60f44992 elementor-widget elementor-widget-spacer" data-id="60f44992" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-563c65f4 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="563c65f4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;stretch_section&quot;:&quot;section-stretched&quot;}" style="width: 1263px; left: 0px;">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-5475ffd elementor-column elementor-col-33 elementor-top-column" data-id="5475ffd" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-20a7ed59 elementor-view-default elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="20a7ed59" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+					<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-">
+				<i class="fa fa-list" aria-hidden="true"></i>
+				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>Apply to Projects</span>
+				</h3>
+				<p class="elementor-icon-box-description"></p>
+			</div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-77d177ef elementor-column elementor-col-33 elementor-top-column" data-id="77d177ef" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-79974dfa elementor-view-default elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="79974dfa" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+					<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-">
+				<i class="fa fa-dollar" aria-hidden="true"></i>
+				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>Generate Income</span>
+				</h3>
+				<p class="elementor-icon-box-description"></p>
+			</div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-591fb89e elementor-column elementor-col-33 elementor-top-column" data-id="591fb89e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-3462cfbb elementor-view-default elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="3462cfbb" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+					<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-">
+				<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>Work at Your Convenience</span>
+				</h3>
+				<p class="elementor-icon-box-description"></p>
+			</div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-1717b296 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="1717b296" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-629f70b2 elementor-column elementor-col-100 elementor-top-column" data-id="629f70b2" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-1d360f16 elementor-widget elementor-widget-spacer" data-id="1d360f16" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-5cf5c881 elementor-widget elementor-widget-heading" data-id="5cf5c881" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Code-n-Mingle brings freelance work to you.</h2>		</div>
+				</div>
+				<section class="elementor-element elementor-element-4b0160cb elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="4b0160cb" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-1569db6d elementor-column elementor-col-100 elementor-inner-column" data-id="1569db6d" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-29a679eb elementor-widget elementor-widget-text-editor" data-id="29a679eb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><strong><span class="colored"><span style="color: #43a89a;">The job market for freelancers is more saturated and competitive than ever.</span>&nbsp;</span></strong>You’ll need more than just the standard classroom experience and portfolio to get the job you want. You’ll need to stand out among thousands.</p><p><b>Code-n-Mingle brings paid work right to your inbox</b>&nbsp;and lets you compete to work on unique projects. Build out your portfolio and apply to jobs you’d like to work on. With Code-n-Mingle, you can build a unique portfolio, gain valuable experience, and get paid while in college.</p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-a72ba46 elementor-widget elementor-widget-spacer" data-id="a72ba46" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-46d6b873 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="46d6b873" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-5b6036b8 elementor-column elementor-col-100 elementor-top-column" data-id="5b6036b8" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-d0174b7 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="d0174b7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-25df9800 elementor-column elementor-col-25 elementor-inner-column" data-id="25df9800" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-5d5b80b6 elementor-align-center elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="5d5b80b6" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i class="fa fa-check-circle" aria-hidden="true"></i>
+						</span>
+										<span class="elementor-icon-list-text">Build a Unique Portfolio</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-d715beb elementor-column elementor-col-25 elementor-inner-column" data-id="d715beb" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-caf92d5 elementor-align-center elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="caf92d5" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i class="fa fa-check-circle" aria-hidden="true"></i>
+						</span>
+										<span class="elementor-icon-list-text">Gain Valuable Experience</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-78cb37a elementor-column elementor-col-25 elementor-inner-column" data-id="78cb37a" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-af11f60 elementor-align-center elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="af11f60" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i class="fa fa-check-circle" aria-hidden="true"></i>
+						</span>
+										<span class="elementor-icon-list-text">Get Paid for Your Work</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-ff2fb92 elementor-column elementor-col-25 elementor-inner-column" data-id="ff2fb92" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-919a8da elementor-align-center elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="919a8da" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i class="fa fa-check-circle" aria-hidden="true"></i>
+						</span>
+										<span class="elementor-icon-list-text">Keep 70% of Earnings</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-b9c0a12 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="b9c0a12" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-609b601 elementor-column elementor-col-33 elementor-inner-column" data-id="609b601" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-e38ca28 elementor-align-center elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="e38ca28" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i class="fa fa-check-circle" aria-hidden="true"></i>
+						</span>
+										<span class="elementor-icon-list-text">Work at Your Convenience</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-91f7ca6 elementor-column elementor-col-33 elementor-inner-column" data-id="91f7ca6" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-b629b5e elementor-align-center elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="b629b5e" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i class="fa fa-check-circle" aria-hidden="true"></i>
+						</span>
+										<span class="elementor-icon-list-text">No Hidden Fees + Free Account</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-af0e548 elementor-column elementor-col-33 elementor-inner-column" data-id="af0e548" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-5f0ae02 elementor-align-center elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="5f0ae02" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i class="fa fa-check-circle" aria-hidden="true"></i>
+						</span>
+										<span class="elementor-icon-list-text">Indian Coders Only</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<div class="elementor-element elementor-element-4ac6deb9 elementor-widget elementor-widget-spacer" data-id="4ac6deb9" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-4c5581b6 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="4c5581b6" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-57280cbe elementor-column elementor-col-100 elementor-top-column" data-id="57280cbe" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4e7e2bdd elementor-widget elementor-widget-heading" data-id="4e7e2bdd" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Featured Completed Work</h2>		</div>
+				</div>
+				<section class="elementor-element elementor-element-d07ead6 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="d07ead6" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-47825a1 elementor-column elementor-col-33 elementor-inner-column" data-id="47825a1" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-bac298c elementor-cta--layout-image-above elementor-cta--valign-middle elementor-cta--skin-classic elementor-animated-content elementor-widget elementor-widget-call-to-action" data-id="bac298c" data-element_type="widget" data-widget_type="call-to-action.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-cta">
+					<div class="elementor-cta__bg-wrapper">
+				<div class="elementor-cta__bg elementor-bg" style="background-image: url(flyers-brochures-hero-1024x417.png);"></div>
+				<div class="elementor-cta__bg-overlay"></div>
+			</div>
+							<div class="elementor-cta__content">
+				
+									<h2 class="elementor-cta__title elementor-cta__content-item elementor-content-item">
+						Event Brochure					</h2>
+				
+				
+							</div>
+							<div class="elementor-ribbon elementor-ribbon-left">
+				<div class="elementor-ribbon-inner">$400</div>
+			</div>
+				</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-910495d elementor-column elementor-col-33 elementor-inner-column" data-id="910495d" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d72428a elementor-cta--layout-image-above elementor-cta--valign-middle elementor-cta--skin-classic elementor-animated-content elementor-widget elementor-widget-call-to-action" data-id="d72428a" data-element_type="widget" data-widget_type="call-to-action.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-cta">
+					<div class="elementor-cta__bg-wrapper">
+				<div class="elementor-cta__bg elementor-bg" style="background-image: url(landing-pages-hero-1024x417.png);"></div>
+				<div class="elementor-cta__bg-overlay"></div>
+			</div>
+							<div class="elementor-cta__content">
+				
+									<h2 class="elementor-cta__title elementor-cta__content-item elementor-content-item">
+						Landing Page UX					</h2>
+				
+				
+							</div>
+							<div class="elementor-ribbon elementor-ribbon-left">
+				<div class="elementor-ribbon-inner">$1200</div>
+			</div>
+				</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-71296b3 elementor-column elementor-col-33 elementor-inner-column" data-id="71296b3" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-e87f85f elementor-cta--layout-image-above elementor-cta--valign-middle elementor-cta--skin-classic elementor-animated-content elementor-widget elementor-widget-call-to-action" data-id="e87f85f" data-element_type="widget" data-widget_type="call-to-action.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-cta">
+					<div class="elementor-cta__bg-wrapper">
+				<div class="elementor-cta__bg elementor-bg" style="background-image: url(icon-set-hero-1024x417.png);"></div>
+				<div class="elementor-cta__bg-overlay"></div>
+			</div>
+							<div class="elementor-cta__content">
+				
+									<h2 class="elementor-cta__title elementor-cta__content-item elementor-content-item">
+						Product Category Icons					</h2>
+				
+				
+							</div>
+							<div class="elementor-ribbon elementor-ribbon-left">
+				<div class="elementor-ribbon-inner">$100</div>
+			</div>
+				</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-cd87bce elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="cd87bce" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-3fb852e elementor-column elementor-col-33 elementor-inner-column" data-id="3fb852e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-256da36 elementor-cta--layout-image-above elementor-cta--valign-middle elementor-cta--skin-classic elementor-animated-content elementor-widget elementor-widget-call-to-action" data-id="256da36" data-element_type="widget" data-widget_type="call-to-action.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-cta">
+					<div class="elementor-cta__bg-wrapper">
+				<div class="elementor-cta__bg elementor-bg" style="background-image: url(ebooks-hero-1024x417.png);"></div>
+				<div class="elementor-cta__bg-overlay"></div>
+			</div>
+							<div class="elementor-cta__content">
+				
+									<h2 class="elementor-cta__title elementor-cta__content-item elementor-content-item">
+						Senior Portraits Book					</h2>
+				
+				
+							</div>
+							<div class="elementor-ribbon elementor-ribbon-left">
+				<div class="elementor-ribbon-inner">$300</div>
+			</div>
+				</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-8daf72d elementor-column elementor-col-33 elementor-inner-column" data-id="8daf72d" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d68bf21 elementor-cta--layout-image-above elementor-cta--valign-middle elementor-cta--skin-classic elementor-animated-content elementor-widget elementor-widget-call-to-action" data-id="d68bf21" data-element_type="widget" data-widget_type="call-to-action.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-cta">
+					<div class="elementor-cta__bg-wrapper">
+				<div class="elementor-cta__bg elementor-bg" style="background-image: url(logo-hero-1024x417.png);"></div>
+				<div class="elementor-cta__bg-overlay"></div>
+			</div>
+							<div class="elementor-cta__content">
+				
+									<h2 class="elementor-cta__title elementor-cta__content-item elementor-content-item">
+						Logo Design					</h2>
+				
+				
+							</div>
+							<div class="elementor-ribbon elementor-ribbon-left">
+				<div class="elementor-ribbon-inner">$150</div>
+			</div>
+				</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-c33920e elementor-column elementor-col-33 elementor-inner-column" data-id="c33920e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4695f24 elementor-cta--layout-image-above elementor-cta--valign-middle elementor-cta--skin-classic elementor-animated-content elementor-widget elementor-widget-call-to-action" data-id="4695f24" data-element_type="widget" data-widget_type="call-to-action.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-cta">
+					<div class="elementor-cta__bg-wrapper">
+				<div class="elementor-cta__bg elementor-bg" style="background-image: url(mobile-app-mockup-hero-1024x417.png);"></div>
+				<div class="elementor-cta__bg-overlay"></div>
+			</div>
+							<div class="elementor-cta__content">
+				
+									<h2 class="elementor-cta__title elementor-cta__content-item elementor-content-item">
+						Mobile App Desgin					</h2>
+				
+				
+							</div>
+							<div class="elementor-ribbon elementor-ribbon-left">
+				<div class="elementor-ribbon-inner">$450</div>
+			</div>
+				</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-067c135 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="067c135" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-5a29622 elementor-column elementor-col-100 elementor-top-column" data-id="5a29622" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-9849afc elementor-align-center elementor-widget elementor-widget-button" data-id="9849afc" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="" class="elementor-button-link elementor-button elementor-size-lg" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Get Started - It's Free</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		
+		
+		
+	</div><!-- .entry-content .clear -->
+
+	
+	
+</article><!-- #post-## -->
+
+
+					
+					
+				
+			</main><!-- #main -->
+			
+		
+	</div><!-- #primary -->
+
+
+			
+			</div> <!-- ast-container -->
+
+		</div><!-- #content -->
+
+		
+		
+				<div data-elementor-type="footer" data-elementor-id="16" class="elementor elementor-16  elementor-type-footer elementor-location-footer" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-112d410c elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="112d410c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-71252b7e elementor-column elementor-col-100 elementor-top-column" data-id="71252b7e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-524c6d8e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="524c6d8e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-2699410a elementor-column elementor-col-50 elementor-inner-column" data-id="2699410a" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-70464382 elementor-widget elementor-widget-image" data-id="70464382" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+											<a href="" data-elementor-open-lightbox="">
+							<img width="760" height="200" src="logo.png" class="attachment-large size-large" alt="" srcset="" sizes="(max-width: 760px) 100vw, 760px">								</a>
+											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-43cd130d elementor-column elementor-col-50 elementor-inner-column" data-id="43cd130d" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-40c8abf0 elementor-icon-list--layout-inline elementor-align-right elementor-mobile-align-center elementor-hidden-phone elementor-widget elementor-widget-icon-list" data-id="40c8abf0" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item">
+					<a href="">					<span class="elementor-icon-list-text">How it Works</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="">					<span class="elementor-icon-list-text">FAQ</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="" target="_blank">					<span class="elementor-icon-list-text">Feedback</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="" target="_blank">					<span class="elementor-icon-list-text">Support</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="">					<span class="elementor-icon-list-text">Invite Friends</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-253180f0 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="253180f0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-604064a5 elementor-column elementor-col-100 elementor-top-column" data-id="604064a5" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<section class="elementor-element elementor-element-5b8fa951 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-id="5b8fa951" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-70e126fb elementor-column elementor-col-33 elementor-inner-column" data-id="70e126fb" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-62945c5b elementor-widget elementor-widget-heading" data-id="62945c5b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-heading-title elementor-size-default">© Code-n-Mingle 2020-2021. All Rights Reserved.</div>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-4c5a690a elementor-column elementor-col-33 elementor-inner-column" data-id="4c5a690a" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-5433749c elementor-shape-circle elementor-widget elementor-widget-social-icons" data-id="5433749c" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-social-icons-wrapper">
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook" href="" target="_blank">
+					<span class="elementor-screen-only">Facebook</span>
+					<i class="fa fa-facebook"></i>
+				</a>
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter" href="" target="_blank">
+					<span class="elementor-screen-only">Twitter</span>
+					<i class="fa fa-twitter"></i>
+				</a>
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram" href="" target="_blank">
+					<span class="elementor-screen-only">Instagram</span>
+					<i class="fa fa-instagram"></i>
+				</a>
+							<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube" href="" target="_blank">
+					<span class="elementor-screen-only">Youtube</span>
+					<i class="fa fa-youtube"></i>
+				</a>
+					</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-379279f6 elementor-column elementor-col-33 elementor-inner-column" data-id="379279f6" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-1cc1efe8 elementor-icon-list--layout-inline elementor-align-right elementor-mobile-align-center elementor-widget elementor-widget-icon-list" data-id="1cc1efe8" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item">
+					<a href="" target="_blank">					<span class="elementor-icon-list-text">Blog</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="" target="_blank">					<span class="elementor-icon-list-text">Press Kit</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+					<a href="">					<span class="elementor-icon-list-text">Legal</span>
+											</a>
+									</li>
+						</ul>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		
+		
+	</div><!-- #page -->
+
+	
+	
+<
+<iframe id="intercom-frame" style="position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0 !important; left: 0 !important; border: none !important; display: block !important; z-index: -1 !important; pointer-events: none;" aria-hidden="true" tabindex="-1" title="Intercom" src="saved_resource.html"></iframe><div class="intercom-lightweight-app" aria-live="polite"><style id="intercom-lightweight-app-style" type="text/css">
+  @keyframes intercom-lightweight-app-launcher {
+    from {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes intercom-lightweight-app-gradient {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes intercom-lightweight-app-messenger {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .intercom-lightweight-app {
+    position: fixed;
+    z-index: 2147483001;
+    width: 0;
+    height: 0;
+    font-family: intercom-font, "Helvetica Neue", "Apple Color Emoji", Helvetica, Arial, sans-serif;
+  }
+
+  .intercom-lightweight-app-gradient {
+    position: fixed;
+    z-index: 2147483002;
+    width: 500px;
+    height: 500px;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+    background: radial-gradient(
+      ellipse at bottom right,
+      rgba(29, 39, 54, 0.16) 0%,
+      rgba(29, 39, 54, 0) 72%);
+    animation: intercom-lightweight-app-gradient 200ms ease-out;
+  }
+
+  .intercom-lightweight-app-launcher {
+    position: fixed;
+    z-index: 2147483003;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #28a69b;
+    cursor: pointer;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.06), 0 2px 32px 0 rgba(0, 0, 0, 0.16);
+    animation: intercom-lightweight-app-launcher 250ms ease;
+  }
+
+  .intercom-lightweight-app-launcher:focus {
+    outline: none;
+    
+  }
+
+  .intercom-lightweight-app-launcher-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    transition: transform 100ms linear, opacity 80ms linear;
+  }
+
+  .intercom-lightweight-app-launcher-icon-open {
+    
+        opacity: 1;
+        transform: rotate(0deg) scale(1);
+      
+  }
+
+  .intercom-lightweight-app-launcher-icon-open svg {
+    width: 28px;
+    height: 32px;
+  }
+
+  .intercom-lightweight-app-launcher-icon-open svg path {
+    fill: rgb(255, 255, 255);
+  }
+
+  .intercom-lightweight-app-launcher-icon-self-serve {
+    
+        opacity: 1;
+        transform: rotate(0deg) scale(1);
+      
+  }
+
+  .intercom-lightweight-app-launcher-icon-self-serve svg {
+    height: 56px;
+  }
+
+  .intercom-lightweight-app-launcher-icon-self-serve svg path {
+    fill: rgb(255, 255, 255);
+  }
+
+  .intercom-lightweight-app-launcher-custom-icon-open {
+    max-height: 36px;
+    max-width: 36px;
+    
+        opacity: 1;
+        transform: rotate(0deg) scale(1);
+      
+  }
+
+  .intercom-lightweight-app-launcher-icon-minimize {
+    
+        opacity: 0;
+        transform: rotate(-60deg) scale(0);
+      
+  }
+
+  .intercom-lightweight-app-launcher-icon-minimize svg {
+    width: 16px;
+  }
+
+  .intercom-lightweight-app-launcher-icon-minimize svg path {
+    fill: rgb(255, 255, 255);
+  }
+
+  .intercom-lightweight-app-messenger {
+    position: fixed;
+    z-index: 2147483003;
+    overflow: hidden;
+    background-color: white;
+    animation: intercom-lightweight-app-messenger 250ms ease-out;
+    
+        width: 376px;
+        height: calc(100% - 40px);
+        max-height: 704px;
+        min-height: 250px;
+        right: 20px;
+        bottom: 20px;
+        box-shadow: 0 5px 40px rgba(0,0,0,0.16);
+        border-radius: 8px;
+      
+  }
+
+  .intercom-lightweight-app-messenger-header {
+    height: 75px;
+    background: linear-gradient(
+      135deg,
+      rgb(255, 255, 255) 0%,
+      rgb(204, 204, 204) 100%
+    );
+  }
+
+  @media print {
+    .intercom-lightweight-app {
+      display: none;
+    }
+  }
+</style></div></body></html>
