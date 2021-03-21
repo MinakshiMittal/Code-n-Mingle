@@ -911,7 +911,7 @@ th {
     }
 
     .page-header.yellow-mixin .header-navigation ul > li.has-unread > a:before {
-        background-color: #F5AC1B;
+        background-color: #ff5a6e;
     }
 
     .page-header.teal-mixin .header-navigation ul > li.has-unread > a:before {
@@ -999,7 +999,7 @@ th {
     .page-header .header-toolbar.toolbar-guest .item:not(.login-wrap) a.yellow:after {
         border-color: #F5AC1B;
     }
-    .page-header .header-toolbar.toolbar-guest .item a.login-btn{display: inline-block;vertical-align: top;background-color: #363636;color: #fff;font-size: 14px;font-weight: 700;padding: 15px 26px;border-radius: 4px;margin-top: -14px;}
+    .page-header .header-toolbar.toolbar-guest .item a.login-btn{display: inline-block;vertical-align: top;background-color: #ff5a6e;color: #fff;font-size: 14px;font-weight: 700;padding: 15px 26px;border-radius: 4px;margin-top: -14px;}
     .page-header .header-toolbar.toolbar-guest .toolbar-left a {
         background-color: #28A79B;
         font-weight: 700;
